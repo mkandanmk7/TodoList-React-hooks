@@ -38,11 +38,11 @@ h1 {
 }
 
 .todo-form {
-  margin-bottom: 32px;
+  margin-bottom: 25px;
 }
 
 .todo-input {
-  padding: 14px 32px 14px 16px;
+  padding: 14px 32px 14px 20px;
   border-radius: 4px 0 0 4px;
   border: 2px solid #5d0cff;
   outline: none;
@@ -63,7 +63,7 @@ h1 {
   outline: none;
   background: linear-gradient(
     90deg,
-    rgba(93, 12, 255, 1) 0%,
+    rgba(93, 12, 255, 1) 20%,
     rgba(155, 0, 250, 1) 100%
   );
   color: #fff;
@@ -132,14 +132,16 @@ h1 {
 
 .icons {
   display: flex;
+  justify-content: space-between;
+  width: 80px;
   align-items: center;
   font-size: 24px;
   cursor: pointer;
 }
 
 .delete-icon {
-  margin-right: 5px;
-  color: #fff;
+  /* margin-right: 5px; */
+  color: rgb(226, 212, 212);
 }
 
 .edit-icon {
